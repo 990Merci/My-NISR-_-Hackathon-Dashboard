@@ -19,7 +19,7 @@ This dashboard provides visual insights into seasonal agriculture survey data. I
 ## Getting Started:
 1. All necessary dependencies are installed while running the code eg: `pip install -r requirements.txt`.
 2. Run the dashboard locally with `python app.py`.
-3. Access the dashboard at http://127.0.0.1:8146/ in your web browser.
+3. Access the dashboard at http://127.0.0.1:8148 in your web browser.
 
 For a detailed explanation of each feature, watch the accompanying video uploaded here.
 
