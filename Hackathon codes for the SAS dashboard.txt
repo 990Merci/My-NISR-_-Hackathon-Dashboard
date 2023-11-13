@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import pandas as pd
+import plotly.graph_objs as go  # Add this line
 import plotly.express as px
 
 transparent_background_style = {'backgroundColor': 'rgba(0, 0, 0, 0)'}
@@ -353,7 +354,7 @@ def update_agricultural_inputs_plot(selected_season):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8146)
+    app.run_server(debug=True, port=8148)
 
 # here is the link to access dashboard in the open browser as i did in the video recorded
-# http://127.0.0.1:8146
+# http://127.0.0.1:8148
